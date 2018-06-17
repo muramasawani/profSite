@@ -216,10 +216,61 @@ h3 {
 	top: 0;				/* 上部から配置の基準位置を決める */ 
 	left: 0;			/* 左から配置の基準位置を決める */ 
 	width: 100%;		/* ヘッダーの横幅を指定する */
-	height: 120px;		/* ヘッダーの高さを指定する */
+	height: 110px;		/* ヘッダーの高さを指定する */
 	padding: 10px;		/* ヘッダーの余白を指定する(上下左右) */
 	background-color: #043a57;	/* ヘッダーの背景色を指定する */
-	color: #000000;		/* フォントの色を指定する */
+    color: #000000;		/* フォントの色を指定する */
+    z-index: 1;
 }	
 
-  
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 3.5vw;
+    }
+    h1 {
+        font-size: 7.2vw;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    header {
+        width: auto;
+        margin: 0 5%;
+    }
+    .Header {
+        height: 150px;
+    }
+    nav {
+        margin: 0 10%;
+    }
+    .logo {
+        float: none;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .global-nav {
+        float: none;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .global-nav li {
+        display: inline;
+        float: none;
+        margin: 0 8px;
+    }
+    #wrap {
+        padding: 35px 0 0;
+
+        float: none;
+        width: auto;
+        margin: 0 5%;
+    }
+    .content {
+        width: 100%;
+    }
+
+    #wrap img {
+        max-width: 100%;
+    }
+
+}
