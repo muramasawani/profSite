@@ -96,9 +96,14 @@ header {
     margin: 0 auto;
 }
 
+.header-class {
+    background-color: #103446;
+    margin-bottom: 50px;
+}
+
 #wrap {
     width: 960px;
-    margin: 0 auto;
+    margin: 200px auto;
     clear: both;
 }
 
@@ -206,3 +211,15 @@ h3 {
     font-size: 22px;
 }
 
+.Header {
+	position: fixed;	/* ヘッダーを固定する */
+	top: 0;				/* 上部から配置の基準位置を決める */ 
+	left: 0;			/* 左から配置の基準位置を決める */ 
+	width: 100%;		/* ヘッダーの横幅を指定する */
+	height: 120px;		/* ヘッダーの高さを指定する */
+	padding: 10px;		/* ヘッダーの余白を指定する(上下左右) */
+	background-color: #043a57;	/* ヘッダーの背景色を指定する */
+	color: #000000;		/* フォントの色を指定する */
+}	
+
+  
