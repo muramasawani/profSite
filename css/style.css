@@ -236,7 +236,7 @@ h3 {
         width: auto;
     }
     .Header {
-        height: 18%;
+        height: 19%;
         width: 100%;
         clear:both;
     }
@@ -257,7 +257,7 @@ h3 {
         text-align: center;
         float: none;
         width: 110%;
-        margin: 19% 40% 3% 0%;
+        margin: 19% 40% 10% 0%;
     }
     .global-nav li {
         display: inline;
