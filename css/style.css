@@ -242,7 +242,7 @@ h3 {
     }
     nav {
         text-align: center;
-        margin: auto 20% 10% 0%;
+        margin: auto 20% 16% 0%;
     }
     .logo {
         float: none;
@@ -257,7 +257,7 @@ h3 {
         text-align: center;
         float: none;
         width: 110%;
-        margin: 19% 40% 0 0%;
+        margin: 19% 40% 3% 0%;
     }
     .global-nav li {
         display: inline;
