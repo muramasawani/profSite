@@ -107,7 +107,7 @@ header {
     clear: both;
 }
 
-footer {
+.foot {
     text-align: center;
     color: #ffffff;
     padding: 20px 0;
@@ -115,8 +115,10 @@ footer {
     margin: 150px auto 0 auto;
     bottom: 0;
     /*position: fixed;*/
-    width: 100%;
     height: 20px;
+}
+footer {
+    width: 100%;
 }
 
 footer small {
@@ -221,12 +223,9 @@ h3 {
 	background-color: #043a57;	/* ヘッダーの背景色を指定する */
     color: #000000;		/* フォントの色を指定する */
     z-index: 1;
-}	
-
+}
 @media screen and (max-width: 600px) {
-    body {
-        font-size: 3.5vw;
-    }
+
     h1 {
         font-size: 7.2vw;
     }
@@ -235,35 +234,44 @@ h3 {
     }
     header {
         width: auto;
-        margin: 0 5%;
     }
     .Header {
-        height: 150px;
+        height: 18%;
+        width: 100%;
+        clear:both;
     }
     nav {
-        margin: 0 10%;
+        text-align: center;
+        margin: auto 20% 10% 0%;
     }
     .logo {
         float: none;
-        margin-top: 60px;
         text-align: center;
+        margin: 10% 8% 0 0.5%;
+    }
+    .logo a {
+        font-size: 10vw;
     }
     .global-nav {
-        float: none;
-        margin-top: 40px;
+        margin-top: 22%;
         text-align: center;
+        float: none;
+        width: 110%;
+        margin: 19% 40% 0 0%;
     }
     .global-nav li {
         display: inline;
         float: none;
-        margin: 0 8px;
+        margin: 0 0.5% 0 0.5%;
     }
     #wrap {
-        padding: 35px 0 0;
-
+        padding: 200px 0 0;
         float: none;
         width: auto;
-        margin: 0 5%;
+        margin: 200px auto;
+        font-size: 3.5vw;
+        width: 90%;
+        margin: 0 5% 0 5%
     }
     .content {
         width: 100%;
@@ -272,5 +280,46 @@ h3 {
     #wrap img {
         max-width: 100%;
     }
+    .profile-txt {
+        clear:both;
+    }
+    .frame {
+        clear:both;
+        float: left;
+    }
+    .clearfix {
+        overflow:hidden;
+    }
 
+    .foot {
+        width: 100%;
+        font-size: 3vw;
+    }
+    .main-center {
+        width: 100%;
+    }
+
+    #wrap .profile-image{
+        width: 100%;
+        height: 60%
+    }
+    .item a {
+        font-size: 5.5vw;
+    }
+    .tbl {
+        line-height: 20px;
+    }
+    .frame:after {
+        height: 88%;
+    }
+    .tbl .item {
+        padding-top: 1%;
+    }
+    .global-nav li a{
+        padding-left: 6%;
+        font-size: 6vw;
+    }
+    .content iframe {
+        width: 100%;
+    }
 }
