@@ -333,6 +333,7 @@ h3 {
         .foot {
             width: 127%;
             height: 100%;
+            position: fixed;
         }
     }
 }
