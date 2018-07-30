@@ -331,6 +331,7 @@ h3 {
 @media screen and (max-width: 769px) {
     @media screen and (min-width: 601px) {
         .foot {
+            width: 127%;
             position: fixed;
         }
     }
